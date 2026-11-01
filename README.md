@@ -1,4 +1,4 @@
-# agentcentral-to
+# Agent Central
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agentcentral-to is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agentcentral.to/
+Agent Central provides AI agents access to Amazon Seller Central data via a REST API and CLI, enabling automated bid adjustments, inventory management, and financial insights. The platform offers read‑only and write‑enabled keys, integrates with Claude, ChatGPT, Muse, OpenClaw, Hermes, and Grok, and includes dashboards, custom tools, and daily reporting. It targets Amazon sellers seeking AI‑driven automation and analytics across multiple marketplaces.
+
+**Areas:** E‑commerce · AI · Automation · Amazon · Seller Central
+
+## Agent Central on APIs.io
+
+Everything profiled for Agent Central is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentcentral-to/](https://apis.io/providers/agentcentral-to/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Agent Central API](https://apis.io/apis/agentcentral-to/agent-central-api/) — REST API for accessing Amazon Seller Central data via Agent Central. Documentation at https://agentcentral.to/docs/rest-api.
+- [Agent Central API](https://apis.io/apis/agentcentral-to/agentcentral-to-api/) — Agent Central API as documented publicly: 22 operations. Contract generated from the documentation by API Evangelist (2026-11-01); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1AccountResponse](https://apis.io/schemas/agentcentral-to/agentcentral-to-get-v1-account-response/)
+- [PostSdCampaignsRequest](https://apis.io/schemas/agentcentral-to/agentcentral-to-post-sd-campaigns-request/)
+- [PostSdNegativetargetsRequest](https://apis.io/schemas/agentcentral-to/agentcentral-to-post-sd-negativetargets-request/)
+- [PostV1ResponsesRequest](https://apis.io/schemas/agentcentral-to/agentcentral-to-post-v1-responses-request/)
+- [PutSdCampaignsRequest](https://apis.io/schemas/agentcentral-to/agentcentral-to-put-sd-campaigns-request/)
+- [PutSdNegativetargetsRequest](https://apis.io/schemas/agentcentral-to/agentcentral-to-put-sd-negativetargets-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agentcentral To Context](https://apis.io/jsonld/agentcentral-to/agentcentral-to-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Agent Central API Rules](https://apis.io/rules/agentcentral-to/agentcentral-to-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentcentral To Authentication](https://apis.io/security/agentcentral-to/agentcentral-to-authentication/)
+- [Agentcentral To Domain Security](https://apis.io/security/agentcentral-to/agentcentral-to-domain-security/)
+- [Agentcentral To Vulnerability Disclosure](https://apis.io/security/agentcentral-to/agentcentral-to-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Agentcentral To Plans Pricing](https://apis.io/plans/agentcentral-to/agentcentral-to-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agentcentral.to/)
+- [Documentation](https://agentcentral.to/docs)
+- [Getting started](https://agentcentral.to/docs/quickstart/claude)
+- [API reference](https://agentcentral.to/docs/reference)
+- [Pricing](https://agentcentral.to/docs/pricing)
+- [Sign up](https://agentcentral.to/signup?tab=signin)
+- [Blog](https://agentcentral.to/blog)
+- [Security](https://agentcentral.to/security)
+- [Terms of service](https://agentcentral.to/terms)
+- [Privacy policy](https://agentcentral.to/privacy)
+
+## API Evangelist rating
+
+**Kin Score 57.0** — strong · rubric 0.25.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 55.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 73.2 |
+
+**Agent readiness 35.9** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentcentral-to/](https://apis.io/providers/agentcentral-to/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Agent Central: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentcentral-to/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
