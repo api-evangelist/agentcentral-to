@@ -66,7 +66,7 @@
 
 Agent Central provides AI agents access to Amazon Seller Central data via a REST API and CLI, enabling automated bid adjustments, inventory management, and financial insights. The platform offers read‑only and write‑enabled keys, integrates with Claude, ChatGPT, Muse, OpenClaw, Hermes, and Grok, and includes dashboards, custom tools, and daily reporting. It targets Amazon sellers seeking AI‑driven automation and analytics across multiple marketplaces.
 
-**Areas:** E‑commerce · AI · Automation · Amazon · Seller Central
+**Areas:** E-Commerce · Artificial Intelligence · Automation · Amazon · Seller Central
 
 ## Agent Central on APIs.io
 
@@ -80,6 +80,12 @@ Everything profiled for Agent Central is published on APIs.io rather than in thi
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentcentral-to-mcp.yml](https://apis.io/servers/agentcentral-to/agentcentral-to-mcp-yml/)
 
 #### JSON Schema (6)
 
@@ -108,22 +114,22 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentcentral To Authentication](https://apis.io/security/agentcentral-to/agentcentral-to-authentication/)
-- [Agentcentral To Domain Security](https://apis.io/security/agentcentral-to/agentcentral-to-domain-security/)
-- [Agentcentral To Vulnerability Disclosure](https://apis.io/security/agentcentral-to/agentcentral-to-vulnerability-disclosure/)
+- [Agent Central Authentication](https://apis.io/security/agentcentral-to/agentcentral-to-authentication/)
+- [Agent Central Domain Security](https://apis.io/security/agentcentral-to/agentcentral-to-domain-security/)
+- [Agent Central Vulnerability Disclosure](https://apis.io/security/agentcentral-to/agentcentral-to-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Agentcentral To Plans Pricing](https://apis.io/plans/agentcentral-to/agentcentral-to-plans-pricing/)
+- [Agent Central Plans Pricing](https://apis.io/plans/agentcentral-to/agentcentral-to-plans-pricing/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://agentcentral.to/)
-- [Documentation](https://agentcentral.to/docs)
+- [Documentation](https://agentcentral.to/docs/quickstart/claude)
 - [Getting started](https://agentcentral.to/docs/quickstart/claude)
 - [API reference](https://agentcentral.to/docs/reference)
 - [Pricing](https://agentcentral.to/docs/pricing)
@@ -135,18 +141,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 57.0** — strong · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 45.0** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 57.1 |
-| Contract quality | 55.5 |
-| Contract governance | 79.1 |
-| Operational transparency | 10.5 |
+| Discoverability | 73.3 |
+| Contract quality | 26.1 |
+| Contract governance | 22.0 |
+| Operational transparency | 9.5 |
 | Developer ergonomics | 50.0 |
-| Access clarity | 73.2 |
+| Access clarity | 76.6 |
 
-**Agent readiness 35.9** — agent-ready
+**Agent readiness 34.3** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -155,7 +161,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
-| Idempotency | verified |
+| Idempotency | derived (partial credit) |
 | Error Semantics | — |
 | OpenAPI Examples | partial |
 | Rate Limit Signal | — |
@@ -167,10 +173,14 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Dry Run Mode | — |
 | Delegated Identity | served (partial credit) |
 | Protected Resource Metadata | — |
-| Dynamic Client Registration | — |
+| Dynamic Client Registration | yes |
 | Agentic Commerce | — |
 | Pagination Ratio | — |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
 
